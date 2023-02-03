@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+.modal-atend {
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.modal-cont {
+    position: absolute;
+    width: 671px;
+    height: 581px;
+    background-color: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    display: grid;
+}
+
+.modal-atend #rua {
+    margin-top: 70px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.modal-atend #atend {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.modal-atend button {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F6F5FB;
+    background: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 215px;
+    padding: 15px;
+}
+
+#fechar {
+    font-family: 'Montserrat';
+    font-size: 35px;
+    margin-top: 35px;
+    margin-right: 35px;
+    text-align: right;
+    color: gray;
+}
+
+#fechar:hover {
+    cursor: pointer;
+}
+
+.button-comprar {
+    background: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F6F5FB;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+#b1 {
+    display: none;
+}
+
+#b2 {
+    display: none;
+}
+
+#b3 {
+    display: none;
+}
+
+#b4 {
+    display: none;
+}
